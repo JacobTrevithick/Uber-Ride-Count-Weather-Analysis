@@ -11,7 +11,7 @@ Our null hypothesis was that incliment weather would have no effect on ride coun
 
 Uber data is cleaned and aggregated to generate ride count totals per hour so they can be correlated to weather reports (reported on an hourly basis). Uber data is given based on each individual ride with a given time stamp. This is converted to columns: Date and Hour (time) and grouped by the hour to give a total count per hour.
 
-![Ride Count Dataframe](https://github.com/JacobTrevithick/Climate-Change-Visualizations/blob/main/Images/Title_Map.png)
+![Ride Count Dataframe](https://github.com/JacobTrevithick/Uber-Ride-Count-Weather-Analysis/blob/main/Images/Ride_count_df.png)
 
 A similar process is done using the weather data retrieved from OpenWeatherAPI. This data is then combined with the ride count data to allow for analysis later on.
 
