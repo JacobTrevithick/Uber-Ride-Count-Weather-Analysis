@@ -7,7 +7,7 @@ This project analyzes New York City Uber ride data from 2014-2015 and attempts t
 Our null hypothesis was that incliment weather would have no effect on ride count data. We could not safely reject the null hypothesis based on the findings.
 
 
-**Initial data cleanup:**
+## Initial data cleanup:
 
 Uber data is cleaned and aggregated to generate ride count totals per hour so they can be correlated to weather reports (reported on an hourly basis). Uber data is given based on each individual ride with a given time stamp. This is converted to columns: Date and Hour (time) and grouped by the hour to give a total count per hour.
 
@@ -15,15 +15,15 @@ Uber data is cleaned and aggregated to generate ride count totals per hour so th
 
 A similar process is done using the weather data retrieved from OpenWeatherAPI. This data is then combined with the ride count data to allow for analysis later on.
 
-**Data Analysis and Findings:**
+## Data Analysis and Findings:
 
-# Should Uber focus their marketing, recruiting and pricing strategy based on weather?
+### Should Uber focus their marketing, recruiting and pricing strategy based on weather?
 
 Based on our findings, it does not seem like weather has much of an impact on ride count. We do not believe this would be a viable strategy for Uber to pursue. Correlations between ride counts and weather patterns were weak at best, and there is not sufficient data to determine if those correlations are directly related to weather patterns.
 
 Additionally, other metrics may be more useful to track for marketing purposes than total ride count. The uber ride length or specific locations within New York City where the rides are starting may prove to be insightful metrics to track in maximizing profits.
 
-# What are the underlying factors affecting ride count?
+### What are the underlying factors affecting ride count?
 
 The three main underlying factors of our data that we explored were:
 * The differences in rides experienced by time of day.
@@ -44,7 +44,7 @@ Looking at the scale of rides the volume of rides increased dramatically over th
 
 ![Total Uber Pickups 2015 by month](https://github.com/JacobTrevithick/Uber-Ride-Count-Weather-Analysis/blob/main/Images/Total_Uberpickups_by_month_2015.png)
 
-#  What aspect of weather influences ride rate?
+### What aspect of weather influences ride rate?
 
 The initial outlook is that weather does not influence ride rate. Although there is a weak positive correlation between temperature and the number of ride counts, this is most likely due to Ubers increasing general popularity as a rideshare platform.
 
